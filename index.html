@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mentalista - ID3 [versão com dicas]</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <audio autoplay id="som"></audio>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo" alt=""><br>
+  <div class="container">
+    <h1 class="page-title">
+      Mentalista
+    </h1>
+
+    <div class="page-subtitle">
+      <p>
+        Sorteamos um número aleatório, em quantas tentativas você consegue adivinhá-lo?</p>
+      <p>Digite um número de 0 a 10:
+      </p>
+    </div>
+    <input type="number" id="valor" /><br>
+    <button type="submit" onclick="Chutar()" id="btnChutar">Chutar</button>
+    <button type="submit" onclick="Zerar()">Reiniciar</button>
+    <h2 class="resultado" id="resultado"></h2>
+    <h2 class="resultado" id="tentativas"></h2>
+    <h2 id="marcas"></h2>
+    <h2 class="resultado" id="chutes"></h2>
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
